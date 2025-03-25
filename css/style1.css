@@ -1,9 +1,57 @@
-:root {
-    --font-main: #212121;
-    --font-second: #ffffff;
-    --font-thir: #ffffff99;
-    --main-bg: #2f303a;
-    --button-bg: #2196f3;
-    --team-bg: #f5f4fa;
-    --main-text: #757575;
-  }
+body {
+  font-family: "Roboto, sans serif";
+}
+.logo {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+}
+.logo-start {
+  color: #2196F3;
+  font-family: "Raleway", sans-serif;
+}
+.nav {
+  color: #212121;
+}
+.nav-studio {
+  color: #2196F3;
+}
+.header-email {
+  color: #2196F3;
+}
+.header-tel {
+  color: #757575;
+}
+.hero-title {
+  color: #fff;
+}
+.hero-button {
+  background-color: #2196F3;
+  color: #fff;
+}
+.info-list {
+  color: #212121;
+}
+.info-list-element {
+  color: #757575;
+}
+.second-title {
+  color: #212121;
+}
+.team-title {
+  color: #212121; 
+}
+.team-list {
+  color: #212121;
+}
+.team-element {
+  color: #757575;
+}
+.logo-footer {
+  color: #fff;
+}
+.address-footer {
+  color: #fff;
+}
+.contact-footer {
+  color: #757575;
+}
