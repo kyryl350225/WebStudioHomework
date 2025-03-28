@@ -11,6 +11,7 @@ a {
 .container {
   height: 2279px;
   width: 1605px;
+  padding-left: 215px;
 }
 .header {
   display: flex;
@@ -107,8 +108,16 @@ a {
   height: 766px;
   width: 1600px;
 }
+.info-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+}
 .info-list {
   color: #212121;
+}
+.info-elem {
+  margin-right: 45px;
 }
 .info-box {
   display: flex;
@@ -124,6 +133,7 @@ a {
 }
 .team-title {
   color: #212121;
+
 }
 .team-box {
   justify-content: center;
