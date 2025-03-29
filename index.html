@@ -55,7 +55,7 @@
       </div>
     </section>
     <section>
-      <div class="container">
+      <div class="container, info-container">
         <ul>
           <div class="info-elem">
             <li>
@@ -98,42 +98,52 @@
         </ul>
       </div>
     </section>
-    <section>
+    <section class="info">
+      <div class="container, info-container">
       <h2 class="info-title">Чим ми займаємось</h2>
       <div class="info-foto-box">
         <ul>
-          <li><img src="./IMG/code.jpg" alt="a person coding" /></li>
+          <li><img src="./IMG/code.jpg" class="info-foto" alt="a person coding" /></li>
           <li>
             <img
-              src="./IMG/phone.jpg"
+              src="./IMG/phone.jpg" class="info-foto"
               alt="a person making a design for phone"
             />
           </li>
           <li>
-            <img src="./IMG/colour.jpg" alt="a person choosing a colour" />
+            <img src="./IMG/colour.jpg" class="info-foto" alt="a person choosing a colour" />
           </li>
         </ul>
       </div>
+      </div>
     </section>
     <section class="team">
+      <div class="container, team-container">
       <h2 class="team-title">Наша команда</h2>
       <div class="team-box-people">
         <ul>
+          <div class="team-box">
           <li>
             <img src="./IMG/person1.jpg" alt="a man" />
             <h3 class="team-list">Ігор Дем'яненко</h3>
             <p class="team-element">Product Designer</p>
           </li>
+          </div>
+          <div class="team-box">
           <li>
             <img src="./IMG/person2.jpg" alt="a woman" />
             <h3 class="team-list">Ольга Рєпіна</h3>
             <p class="team-element">Frontend Developer</p>
           </li>
+          </div>
+          <div class="team-box">
           <li>
             <img src="./IMG/person3.jpg" alt="a second man" />
             <h3 class="team-list">Микола Тарасов</h3>
             <p class="team-element">Marketing</p>
           </li>
+          </div>
+          <div class="team-box">
           <li>
             <img src="./IMG/person4.jpg" alt="a third man" />
             <h3 class="team-list">Михайло Єрмаков</h3>
@@ -141,17 +151,18 @@
           </li>
         </ul>
       </div>
+      </div>
     </section>
     <footer class="footer">
-      <a href="#" class="logo-start"
+      <div class="footer-container">
+      <a href="#" class="logo-start-footer"
         >Web<span class="logo-footer">Studio</span></a
       >
       <ul>
         <li><p class="address-footer">м. Київ, пр-т Лесі Українки, 26</p></li>
         <li>
-          <a href="mailto:info@devstudio.com" class="contact-footer"
-            >info@devstudio.com</a
-          >
+          <href href="mailto:info@devstudio.com" class="contact-footer"
+            >info@devstudio.com</href>
         </li>
         <li>
           <a href="tel:+38 096 111 11 11" class="contact-footer"
@@ -159,6 +170,7 @@
           >
         </li>
       </ul>
+      </div>
     </footer>
   </body>
 </html>
